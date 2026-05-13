@@ -303,6 +303,62 @@ header .icons {
   color: white;
 }
 
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 50px;
+  background-color: white;
+  width: 60%;
+  margin-top: 200px;
+}
+.forms aside:first-child {
+  height: 100%;
+}
+.forms aside:first-child .kp {
+  height: auto;
+}
+.forms aside:first-child .bl {
+  display: none;
+}
+.forms aside:last-child {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+}
+.forms aside:last-child h1 {
+  color: #252B42;
+}
+.forms aside:last-child form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+  width: 100%;
+}
+.forms aside:last-child form label {
+  color: #252B42;
+  font-weight: 700;
+}
+.forms aside:last-child form input {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 90%;
+  background-color: #F9F9F9;
+}
+.forms aside:last-child button {
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  background-color: #23A6F0;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+}
+
 @media (max-width: 510px) {
   header nav, header div {
     display: none;
@@ -395,5 +451,16 @@ header .icons {
   }
   .section6 aside:last-child {
     width: 90%;
+  }
+  .forms {
+    flex-direction: column;
+    width: 100%;
+  }
+  .forms aside:first-child .kp {
+    display: none;
+  }
+  .forms aside:first-child .bl {
+    display: block;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
