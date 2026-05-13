@@ -208,6 +208,74 @@ header .icons {
   display: none;
 }
 
+.section5 {
+  margin-top: 100px;
+}
+.section5 .top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+.section5 .duo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.section5 .duo .card5 {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.section5 .duo .card5 aside:first-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.section5 .duo .card5 aside:first-child h2 {
+  color: #23A6F0;
+}
+.section5 .duo .card5 aside:first-child p {
+  color: grey;
+}
+.section5 .duo .card5 aside:last-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.section5 .duo .card5 aside:last-child .pr {
+  display: flex;
+  gap: 10px;
+}
+.section5 .duo .card5 aside:last-child .pr h1 {
+  color: #23A6F0;
+}
+.section5 .duo .card5 aside:last-child .pr .price {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.section5 .duo .card5 aside:last-child .pr .price h6 {
+  color: #23A6F0;
+}
+.section5 .duo .card5 aside:last-child button {
+  padding: 18px;
+  background-color: #23A6F0;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+
 @media (max-width: 510px) {
   header nav, header div {
     display: none;
@@ -278,5 +346,17 @@ header .icons {
     display: flex;
     align-items: center;
     gap: 8px;
+  }
+  .section5 {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .section5 .duo {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .section5 .duo .card5 {
+    flex-direction: column;
+    row-gap: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
