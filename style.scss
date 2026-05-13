@@ -102,6 +102,46 @@ header{
 .menu_mobile{
     display: none;
 }
+@mixin tops{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.section2{
+    margin-top: 50px;
+    .top{
+@include tops;
+padding: 40px;
+p{
+    color:grey;
+}
+    }
+    .row{
+        display: flex;
+        gap:30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        .card{
+            display: flex;
+            gap:20px;
+            padding: 30px;
+            border: 2px solid white;
+            .inf{
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+            }
+            .bl{
+                display: none;
+            }
+        }
+    }
+}
 
 @media (max-width: 500px){
     header{
@@ -143,5 +183,21 @@ header{
             text-decoration: none;
         }  
     
+    }
+    .section2{
+        .row{
+            flex-direction: column;
+            row-gap: 20px;
+            .card{
+                border: none;
+                width:90%;
+                .pk{
+                    display: none;
+                }
+                .bl{
+                    display: block;
+                }
+            }
+        }
     }
 }

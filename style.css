@@ -105,6 +105,44 @@ header .icons {
   display: none;
 }
 
+.section2 {
+  margin-top: 50px;
+}
+.section2 .top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+.section2 .top p {
+  color: grey;
+}
+.section2 .row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.section2 .row .card {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  border: 2px solid white;
+}
+.section2 .row .card .inf {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.section2 .row .card .bl {
+  display: none;
+}
+
 @media (max-width: 500px) {
   header nav, header div {
     display: none;
@@ -139,5 +177,19 @@ header .icons {
     color: white;
     font-size: 50px;
     text-decoration: none;
+  }
+  .section2 .row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .section2 .row .card {
+    border: none;
+    width: 90%;
+  }
+  .section2 .row .card .pk {
+    display: none;
+  }
+  .section2 .row .card .bl {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
