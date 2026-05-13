@@ -142,6 +142,31 @@ p{
         }
     }
 }
+.section3{
+   margin-top: 50px;
+    .top{
+@include tops;
+padding: 40px;  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    color:black;
+    width:60%;
+    margin: auto;
+    img{
+        display: block;
+    }
+    p{
+        color: grey;
+    }
+}
+}
 
 @media (max-width: 500px){
     header{
@@ -201,3 +226,9 @@ p{
         }
     }
 }
+.section3{
+.main{
+    width:70%;
+}
+}
+

@@ -143,6 +143,38 @@ header .icons {
   display: none;
 }
 
+.section3 {
+  margin-top: 50px;
+}
+.section3 .top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+.section3 .main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  width: 60%;
+  margin: auto;
+}
+.section3 .main img {
+  display: block;
+}
+.section3 .main p {
+  color: grey;
+}
+
 @media (max-width: 500px) {
   header nav, header div {
     display: none;
@@ -192,4 +224,7 @@ header .icons {
   .section2 .row .card .bl {
     display: block;
   }
+}
+.section3 .main {
+  width: 70%;
 }/*# sourceMappingURL=style.css.map */
