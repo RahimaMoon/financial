@@ -489,4 +489,13 @@ footer p {
     display: block;
     width: 100%;
   }
+  .last {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .last .col {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */

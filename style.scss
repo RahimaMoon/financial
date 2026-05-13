@@ -488,4 +488,14 @@ footer{
         }
     }
 }
+.last{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    .col{
+        width:90%;
+    }
+}
+
 }
